@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    margin: 40px 0;
+}
+
+.card1{
+    width: 300px;
+    height: fit-content;
+    
+    display: flex;
+    
+
+    }
+
+    .card1 img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px 0 0 10px;
+        object-fit: cover;
+    }
+
+    .card2{
+        width: 300px;
+        height: 450px;
+        border-radius: 0 10px 10px 0;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .content{
+        padding: 30px ;
+    }
+
+    .card2 p{
+        font-family: Montserrat;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        
+    }
+
+    .title{
+        letter-spacing: 5px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    h2{
+        color:hsl(212, 21%, 14%);
+        padding-bottom: 20px;
+        font-family: Fraunces;
+        font-size: 30px;
+    }
+
+    .price{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 1.5rem;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .price h1{
+        color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+    }
+
+    .btn {
+        display: block;
+    width: 90%; 
+    margin: 10px auto;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    }

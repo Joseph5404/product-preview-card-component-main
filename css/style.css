@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.card1,
+.card2 {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.card1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card2 .content {
+    text-align: center;
+}
+
+.card2 .price {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
